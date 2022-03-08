@@ -1,0 +1,17 @@
+body {
+  padding-top: 0px;
+
+}
+
+a{
+  color: #00B7FF;
+}
+
+div.jumbotron{
+  background: url('../images/banner.jpg') no-repeat;
+  background-size: cover;
+}
+
+a.text-body.p-2 i:hover{
+  color: #00B7FF;
+}

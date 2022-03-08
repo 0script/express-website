@@ -1,0 +1,32 @@
+extends layout
+
+block content
+
+  div.container.bg-primary(style='padding:3rem;')
+    h1.display-1.text-center Contact Us
+    div.container.bg-white
+      h2.display-1.text-center.text-info Our Contacts  
+      ul.list-group.list-group-flush
+        li.list-group-item 
+          i.fa-solid.fa-phone   +250782912902
+        li.list-group-item 
+          i.fa-solid.fa-phone   +250782912902
+        li.list-group-item 
+          i.fa-solid.fa-envelope   email@email.com
+        li.list-group-item 
+          i.fa-solid.fa-envelope   email@email.com
+    div.container.bg-white
+        div.container(style='padding:2rem;')
+          h2.display-1.text-center.text-info Contacts
+          form(method='post', action='contact/send')
+            .mb-3
+              label.form-label(for='exampleInputName1') Name
+              input#exampleInputName1.form-control(type='text', name='name')
+            .mb-3
+              label.form-label(for='exampleInputEmail1') Email address
+              input#exampleInputEmail1.form-control(type='email', name='email', aria-describedby='emailHelp')
+              #emailHelp.form-text We&apos;ll never share your email with anyone else.
+            .mb-3
+              label.form-label(for='exampleInputCommentaire1') Message
+              input#exampleInputCommentaire1.form-control(type='text', name='message', aria-label='Sizing example input', aria-describedby='inputGroup-sizing-lg')
+            button.btn.btn-primary(type='submit') Submit
