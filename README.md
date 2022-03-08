@@ -14,22 +14,24 @@
 ##Setup
     *Install the latest npm(at least version 8.5.x) and nodejs (at least version 12.22.x)
     
-
-    *clone the repository
+   *clone the repository
     ```shell
-    $git clone <repository>
+    $git clone <repositorylink>
     ```
 
-    *Install the required package
+
+   *Install the required package
     ```shell
     $cd express-website
     $npm install
     ```
 
-    *Run The Server
+
+   *Run The Server
     ```shell
     $npm start
     ```
 
-    *Browse
+    
+   *Browse
 
